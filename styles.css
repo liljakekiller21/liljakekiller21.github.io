@@ -1,0 +1,50 @@
+body
+{
+	background-color: black;
+}
+
+p
+{
+	color: white;
+	font-family: Georgia;
+	text-align: center;
+	text-shadow: 3px 2px 3px gray;
+	border-style: solid
+}
+
+tilte
+{
+	color: white;
+}
+
+header
+{
+	color: white;
+	font-family: Georgia;
+	text-align: center;
+	text-shadow: 7px 7px 7px gray,
+             2px 2px 1px gray;
+	line-height: 1.6;
+}
+
+html
+{
+	font-size: 21px;
+}
+
+a
+{
+	color: white;
+	list-style-type: square;
+	border: 1px solid black;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
