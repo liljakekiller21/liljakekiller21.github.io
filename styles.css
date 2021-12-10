@@ -3,18 +3,17 @@ body
 	background-color: black;
 }
 
-p
+p,span
 {
 	color: white;
 	font-family: Georgia;
 	text-align: center;
 	text-shadow: 3px 2px 3px gray;
-	border-style: solid
 }
 
 tilte
 {
-	color: white;
+	color: white:
 }
 
 header
@@ -36,15 +35,47 @@ a
 {
 	color: white;
 	list-style-type: square;
-	border: 1px solid black;
-	margin-top: 100px;
-	margin-bottom: 100px;
-	margin-right: 100px;
-	margin-left: 100px;
 }
-.center 
+
+.food
+{
+	width: 33%;
+	float: left;
+	display: flex;
+}
+
+.clearfix::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li 
+{
+  float: left;
+  width: 33%;
+}
+
+li a 
 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover 
+{
+  background-color: #111;
+}
